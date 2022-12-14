@@ -1,11 +1,6 @@
 import React, { useState } from "react";
-import {
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
-  CheckBox,
-} from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import Checkbox from "expo-checkbox";
 
 //This file/component adds each new reminder to the home screen (App.js)
 
@@ -16,7 +11,8 @@ const TodoItem = (props) => {
       <View style={styles.listItem}>
         <Text>{props.title}</Text>
       </View>
-      <CheckBox
+      <Checkbox
+        disabled={false}
         style={styles.check}
         value={check}
         onValueChange={() => setCheck(!check)}
@@ -25,7 +21,7 @@ const TodoItem = (props) => {
         onPress={props.onDelete.bind(this, props.id)}
         style={styles.button}
       >
-        <Text style={styles.text}>Delete Reminder</Text>
+        <Text style={styles.text}>Delete</Text>
       </TouchableOpacity>
     </View>
   );
