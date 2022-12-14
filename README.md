@@ -13,3 +13,5 @@ The idea for this application came from my ow thoughts, but I utilized some sour
 I followed a tutorial from https://www.simplilearn.com/react-native-tutorial-article, and made some stylistic adjustments along the way. All credit goes to Chinmayee Deshpande, and I appreciate their guide. 
 
 For the text on the checkmark image upon completion/deletion of all reminders, I utilized https://www.fontspace.com/ananda-black-font-f85089's font on the image, with https://www.fontspace.com/sunny-spells-font-f68393 for the exclamation mark. 
+
+I also used the following image for my favicon: https://iconarchive.com/show/one-piece-jolly-roger-icons-by-crountch/Zoro-icon.html
